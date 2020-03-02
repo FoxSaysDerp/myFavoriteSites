@@ -13,8 +13,8 @@ class Button:
     def __init__(self, text, func, arg, image=""):
         if image!= "":
             image = tk.PhotoImage(file=image)
-        root.rowconfigure(Button.row, weight=1, minsize=40)
-        root.columnconfigure(Button.column, weight=1, minsize=40)
+        root.rowconfigure(Button.row, weight=1, minsize=64)
+        root.columnconfigure(Button.column, weight=1, minsize=64)
         self.button = ttk.Button(
                 root,
                 text=text,
