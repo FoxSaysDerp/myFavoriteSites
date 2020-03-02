@@ -4,4 +4,4 @@
 Simple launcher using Tkinter.
 
 ## Warning!
-It only works on Windows OS due to os function.
+It only works on Windows OS due to `os` function.
